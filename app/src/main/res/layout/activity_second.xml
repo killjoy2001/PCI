@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Pregunta 1 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Do managers, supervisors, support teams, and agents fully understand the PCI and Clean Desk policies and their importance of protecting our clients?" />
+
+            <CheckBox
+                android:id="@+id/checkBoxYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <CheckBox
+                android:id="@+id/checkBoxNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <!-- Pregunta 2 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Randomly ask 3 employees the following: What is PCI? HIPAA? What does it mean to model Clean Desk policy? Why are these important to our business?" />
+
+            <EditText
+                android:id="@+id/editTextComments2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comentarios" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <!-- Pregunta 3 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Ensure managers and supervisors are following the food, spill proof container, cell phone, and other PCI rules/policies on the call floor." />
+
+            <EditText
+                android:id="@+id/editTextComments3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comentarios" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <!-- Pregunta 4 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Ensure proper trash receptacles are available outside of the call floors, in break rooms and at employee entrances to avoid excuses." />
+
+            <EditText
+                android:id="@+id/editTextComments4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comentarios" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <!-- Pregunta 5 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Are call floors overall clean and free of clutter? Have agent stations been recently dusted/clean (look behind monitors, PCs and phones)." />
+
+            <EditText
+                android:id="@+id/editTextComments5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comentarios" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <!-- Pregunta 6 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. PCI and Clean Desk signage in proper areas." />
+
+            <EditText
+                android:id="@+id/editTextComments6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comentarios" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <!-- Pregunta 7 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. Are all doors to secured areas properly functioning (closes and locks easily)." />
+
+            <EditText
+                android:id="@+id/editTextComments7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comentarios" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <!-- Pregunta 8 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8. Inspect all secure employee and call floor entrances for evidence of piggy backing. Zero tolerance." />
+
+            <EditText
+                android:id="@+id/editTextComments8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comentarios" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <!-- Pregunta 9 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9. Ensure badge is visible on all employees with picture – everyone should be using a zippy or lanyard." />
+
+            <EditText
+                android:id="@+id/editTextComments9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comentarios" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <!-- Pregunta 10 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10. Ensure dress code is being observed by all employees." />
+
+            <EditText
+                android:id="@+id/editTextComments10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comentarios" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <!-- Pregunta 11 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Inspect the call floor including all unlocked drawers and cabinets for any protected client information, login information displayed or hidden, unauthorized materials (writing utensils, non-laminated paper or pamphlets, non-EGS provided cell phone, anything with a camera or USB). Pay close attention to laps, pockets and what headphones are plugged into; use in the hallways, etc., food/drink (hard candy is okay, if allowed)" />
+
+            <EditText
+                android:id="@+id/editTextComments11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comentarios" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <!-- Pregunta 12 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12. Approval from Steve Cheeseman needed for the following: Writing utensils accessible by an agent (example: pens on a TLs desk or checked-out). If headphone use is allowed, there must be a detailed policy signed off on by every agent using them. Non-laminated paper or pamphlets of any kind on an agent desk. The use of page protectors instead of laminating sheets needs approval." />
+
+            <EditText
+                android:id="@+id/editTextComments12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comentarios" />
+
+            <!-- Al final -->
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

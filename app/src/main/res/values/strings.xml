@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PCI</string>
+    <string-array name="supervisor_options">
+        <item>Adriana Guerra</item>
+        <item>Allan Cordero</item>
+        <item>Allan Vargas</item>
+        <item>Álvaro Calvo</item>
+        <item>Arianne León</item>
+        <item>Erika Alvarez</item>
+        <item>Fernanda Salcedo</item>
+        <item>Jackeline Flores</item>
+        <item>Jostin Obando</item>
+        <item>Kenny Aragón</item>
+        <item>Luis Mejías</item>
+        <item>Luis Porras</item>
+        <item>Melvis Vasquez</item>
+    </string-array>
+</resources>
